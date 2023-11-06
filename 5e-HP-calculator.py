@@ -1,6 +1,6 @@
 name = "Lee"
 
-level = 7 
+level = 7
 # replace with level
 
 conmod = 2 
@@ -13,3 +13,6 @@ status = "very tiny and cute."
 
 
 print(name, "is level", level, "and has", barbHP , "health points. They are, also,", status)
+print("If", name, "has the Tough feat, their health points become", barbHP + (level * 2))
+print("If", name, "is a Hill Dwarf, their health points are", barbHP + level, "instead.")
+print("If", name, "is a Tough Hill Dwarf, their health points are", barbHP + level + (level * 2))
