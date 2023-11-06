@@ -3,7 +3,7 @@ name = "Lee"
 level = 7 
 # replace with level
 
-conmod = 4 
+conmod = 2 
 # replace with Consitution modifier
 
 barbHP = (12 + conmod) + ((7 + conmod) * (level - 1))
