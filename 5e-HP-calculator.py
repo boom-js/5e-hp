@@ -27,6 +27,7 @@ wizardHP = (6 + conmod) + ((4 + conmod) * (level - 1)) # calculation for monk HP
 
 ###
 
+
 # outputs - replace xxxxHP with class calculation above
 
 print(name, "is level", level, "and has", barbHP , "HP. They are, also,", status)
